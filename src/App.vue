@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Title msg="Welcome to Your Vue.js App" />
-    <Hero msg="Welcome to Your Vue.js App" />
+    <Title/>
+    <Hero/>
   </div>
 </template>
 
@@ -24,7 +24,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: yellow;
 }
 </style>
